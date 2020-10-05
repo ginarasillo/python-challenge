@@ -1,6 +1,6 @@
 import csv
 
-csvpath = "election_data.csv"
+csvpath = "Resources/election_data.csv"
 
 votes= []
 candidates= {}
@@ -48,7 +48,7 @@ print(result)
 
 
 
-with open("election_data.txt", "w") as result_f:
+with open("Analysis/election_data.txt", "w") as result_f:
     result_f.write(result)
 
 

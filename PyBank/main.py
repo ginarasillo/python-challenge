@@ -2,7 +2,7 @@
 
 import csv
 
-csvpath = "budget_data.csv"
+csvpath = "Resources/budget_data.csv"
 
 months= []
 total= 0
@@ -63,5 +63,5 @@ Greatest Decrease in Profits: {decrease_month} (${g_decrease})
 
 print(result)
 
-with open("budget_result.txt", "w") as result_f:
+with open("Analysis/budget_result.txt", "w") as result_f:
     result_f.write(result)
